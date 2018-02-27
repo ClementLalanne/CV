@@ -1,7 +1,7 @@
-filename=cv_clement_lalanne.tex
+filename=cv_clement_lalanne
 
-all: $(filename)
-	pdflatex $(filename)
+all:
+	pdflatex $(filename).tex
 
-clean:
-	rm cv_clement_lalanne.aux cv_clement_lalanne.log cv_clement_lalanne.pdf cv_clement_lalanne.out
+clean: 
+	rm $(filename).aux $(filename).log $(filename).pdf $(filename).out
